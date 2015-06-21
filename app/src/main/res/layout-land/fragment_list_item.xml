@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/list_item_title_label"
+                  android:textStyle="bold"/>
+              <EditText android:id="@+id/list_item_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/list_item_title_hint"/>
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/list_item_details_label"
+                  android:textStyle="bold"/>
+              <EditText android:id="@+id/list_item_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/list_item_price_hint"/>
+
+              <EditText android:id="@+id/list_item_quantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/list_item_quantity_hint"/>
+
+              <EditText android:id="@+id/list_item_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/list_item_location_hint"/>
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/spinner_type_label"
+                  android:textStyle="bold"/>
+
+              <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/type_spinner"
+                        android:hint="@string/spinner_type_hint"/>
+
+              <CheckBox android:id="@+id/list_item_purchased"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="16dp"
+                  android:layout_marginRight="16dp"
+                  android:text="@string/list_item_purchased_label"/>
+
+
+
+
+
+</LinearLayout>

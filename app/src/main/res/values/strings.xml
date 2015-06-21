@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Shopping List</string>
+
+    <string name="list_item_title_label">Item Name</string>
+    <string name="list_item_title_hint">Enter the items name.</string>
+    <string name="list_item_details_label">Details</string>
+    <string name="list_item_quantity_hint">How many do you need?</string>
+    <string name="list_item_price_hint">How much does the item cost?</string>
+    <string name="list_item_location_hint">Where is the item located?</string>
+    <string name="spinner_type_label">Category of item?</string>
+    <string name="spinner_type_hint">Category of item?</string>
+    <string-array name="type_array">
+        <item>Dairy</item>
+        <item>Meat</item>
+        <item>Vegetable</item>
+        <item>Fruit</item>
+        <item>Beverage(non-alchoholic)</item>
+        <item>Beverage(alchoholic)</item>
+        <item>Frozen</item>
+        <item>Snack</item>
+        <item>Other</item>
+    </string-array>
+    <string name="list_item_purchased_label">Purchased?</string>
+</resources>
